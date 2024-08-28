@@ -47,6 +47,12 @@ body {
     color: var(--fb-black)
 }
 
+/****************************
+*                           *
+*   THE TOP HEADER BLOCK    *
+*                           *
+*****************************/
+
 header {
     background: var(--fb-white);
     height: 62px;
@@ -61,6 +67,12 @@ header {
     top: 0;
     left: 0;
 }
+
+/****************************
+*                           *
+*  THE HEADER LOGO SECTION  *
+*                           *
+*****************************/
 
 .header__logo-section {
     display: flex;
@@ -101,6 +113,12 @@ header {
     align-items: center;
     font-size: 1.7rem;
 }
+
+/****************************
+*                           *
+*  THE HEADER MENU SECTION  *
+*                           *
+*****************************/
 
 .header__menu-tabs {
     display: flex;
@@ -154,6 +172,12 @@ header {
     font-weight: 700;
 }
 
+/****************************
+*                           *
+*  HEADER ACCOUNT SECTION   *
+*                           *
+*****************************/
+
 .header__account {
     display: flex;
 }
@@ -200,10 +224,22 @@ header {
     font-size: 0.9rem;
 }
 
+/****************************
+*                           *
+*    TOTAL CONTENT AREA     *
+*                           *
+*****************************/
+
 .content-area--feed {
     padding: 90px 15px 20px;
     display: flex;
 }
+
+/****************************
+*                           *
+*  LEFT SIDENAV ABOVE LINE  *
+*                           *
+*****************************/
 
 .sidenav {
     width: 25%;
@@ -288,6 +324,12 @@ header {
     margin-bottom: 15px;
     display: block;
 }
+
+/****************************
+*                           *
+*  LEFT SIDENAV BELOW LINE  *
+*                           *
+*****************************/
 
 .sidenav__heading-title {
     display: block;
