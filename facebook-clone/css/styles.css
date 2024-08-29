@@ -338,6 +338,12 @@ header {
     margin-bottom: 15px;
 }
 
+/****************************
+*                           *
+*    MIDDLE FEED AREA       *
+*                           *
+*****************************/
+
 .feed {
     width: 50%;
     height: 200px;
@@ -345,6 +351,12 @@ header {
     align-items: center;
     flex-direction: column;
 }
+
+/****************************
+*            TOP            *
+*    MIDDLE STORIES AREA    *
+*                           *
+*****************************/
 
 .stories {
     display: flex;
@@ -368,6 +380,12 @@ header {
 .stories__video-container:nth-last-child(1) {
     margin-right: 0px;
 }
+
+/****************************
+*            TOP            *
+*     STORIES AREA PHOTOS   *
+*                           *
+*****************************/
 
 .stories__bg {
     object-fit: cover;
@@ -423,6 +441,12 @@ header {
     top: -113px;
     left: 10px;
 }
+
+/****************************
+*                           *
+*    THE POST FEED BOX      *
+*                           *
+*****************************/
 
 .feed__box {
     padding: 20px;
@@ -495,6 +519,13 @@ header {
 .post-types__item .fa-laugh-beam {
     color: var(--fb-yellow);
 }
+
+
+/****************************
+*                           *
+*      THE PHOTO POST       *
+*                           *
+*****************************/
 
 .photopost {
     padding: 0 0 20px;
@@ -644,6 +675,22 @@ header {
     margin-right: 10px;
 }
 
+
+/****************************
+*                           *
+*       START HERE          *
+*                           *
+*****************************/
+
+
+/****************************
+*                           *
+*      THE MESSENGERS       *
+*                           *
+*****************************/
+
+
+
 .floatingmsg {
     position: fixed;
     bottom: 0;
@@ -690,6 +737,14 @@ color: var(--fb-blue);
     right: -5px;
     z-index: 3;
 }
+
+
+
+/****************************
+*                           *
+*    MOBILE ADJUSTMENTS     *
+*                           *
+*****************************/
 
 @media only screen and (max-width: 1200px) {
     .header__menu-tabs {
