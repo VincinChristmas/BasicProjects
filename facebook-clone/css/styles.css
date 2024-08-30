@@ -678,9 +678,74 @@ header {
 
 /****************************
 *                           *
-*       START HERE          *
+*      RIGHT CONTACT        *
 *                           *
 *****************************/
+
+.contactnav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.contactnav__toptitle {
+    display: flex;
+    color: var(--light-color-text);
+    margin-bottom: 15px;
+}
+
+.contactnav__toptitle-name {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 160px;
+}
+
+
+ .contactnav__toptitle .fa-ellipsis-h {
+    margin-left: 20px;
+ }
+
+ .contactnav__title {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 15px;
+ }
+
+
+ .contactnav__bubble {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+
+ .contactnav__bubble-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+ }
+
+ .contactnav__title-status {
+    background: var(--fb-green);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    position: absolute;
+    top: 22px;
+    left: 21px;
+    border: 2px solid var(--fb-bgcolor);
+ }
+
+
 
 
 /****************************
