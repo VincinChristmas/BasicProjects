@@ -879,6 +879,10 @@ color: var(--fb-blue);
         .post-types__title {
             display: none;
         }
+
+        .contactnav {
+            display: none;
+        }
     }
 
 
